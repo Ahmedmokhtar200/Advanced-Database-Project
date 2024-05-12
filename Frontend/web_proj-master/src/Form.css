@@ -1,0 +1,60 @@
+.container2 {
+    margin: 5% auto;
+    width: 600px;
+    max-width: 90%;
+
+
+}
+
+.container2 form {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, .3);
+}
+
+.container2 form h1 {
+    text-align: center;
+    margin-bottom: 24px;
+    color: #222;
+}
+
+.container2 form .input-form {
+    width: 90%;
+    height: 40px;
+    background: white;
+    border-radius: 4px;
+    border:1px solid silver;
+    margin:10px 0 18px 0;
+    padding:0 10px
+}
+
+.container2 form .subtn ,.btn {
+    transform:translate(-50%);
+    width: 120px;
+    height: 34px;
+    border:none;
+    outline:none;
+    background:teal;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    transition: .3s;
+    border-radius: 5px;
+
+}
+#subbut{
+    margin-left: 50%;
+}
+.subtn:hover {
+    opacity: .7;
+}
+
+#loginbut{
+    margin-left: 10%;
+}
+.btn:hover {
+    opacity: .7;
+}

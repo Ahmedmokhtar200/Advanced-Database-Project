@@ -1,0 +1,49 @@
+
+.test1{
+    margin-top: 5%;
+}
+
+
+
+.test {
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+    padding: 2%;
+}
+.Bar {
+    width: 90%;
+}
+.product-holder {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+    gap: 40px; /* Adjust gap between products */
+}
+
+
+
+.container {
+    display: flex;
+    border-radius: 15px;
+    background-color: #F0FFFF;
+    margin: 3%;
+    border: none;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Adjust values for a deeper shadow */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

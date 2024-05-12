@@ -1,0 +1,44 @@
+.main-containerDes{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.main-containerDes img {
+    width: 50%;
+    height: auto;
+}
+.img-card{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+
+}
+.description-area{
+    margin-top: 3%;
+    text-align: center;
+}
+.sizesButtons button {
+    font-weight: 150;
+    color: white;
+    font-size: 20px;
+    border: 2px solid ;
+    background-color: teal;
+    padding: 5%;
+    width: auto;
+    border-radius:10px ;
+    text-align: center;
+}
+.description-area a {
+    text-decoration: none;
+    font-weight: 150;
+    color: white;
+    font-size: 20px;
+    border: 2px solid ;
+    background-color: teal;
+    padding: 5%;
+    width: 200px;
+    border-radius:10px ;
+    text-align: center;
+    display: block;
+
+}

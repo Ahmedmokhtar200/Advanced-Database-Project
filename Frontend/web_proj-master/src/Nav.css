@@ -1,0 +1,47 @@
+
+
+.nav-display-flex{
+    display: flex;
+
+}
+.nav-container{
+    width: 80%;
+    margin: auto;
+}
+
+.justify-content{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+    width: 55%;
+}
+nav ul a {
+    color: teal;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 3px 10px 1px lightgray;
+    margin-bottom: 2%;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+    height: auto;
+
+}
+nav img {
+    width: 200px;
+    height: 65px;
+}
+
+nav a:hover {
+    text-shadow: 0 0 5px teal;
+}

@@ -1,0 +1,27 @@
+#shippingDiv,#products{
+
+    margin: 2%;
+
+}
+#submitButton{
+  margin-top: 3%;
+    background-color: teal;
+    color: white;
+    font-size: 19px;
+    border: transparent;
+    border-radius: 5px;
+}
+.item{
+    margin: 2%;
+}
+.shippingInfoLabel{
+    margin-top: 2%;
+}
+
+.input{
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
