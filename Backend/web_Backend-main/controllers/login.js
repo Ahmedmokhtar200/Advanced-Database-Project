@@ -3,8 +3,12 @@ const app = express()
 const login = require('../model/loginModel');
 
 const getAllLogin = async (req,res) => {
-    const temp = await login.find()
-    res.status(200).json(temp)
+    try {
+        const temp = await login.find()
+        res.status(200).json(temp)
+    } catch (error) {
+        res.status(400).json({msg:error.message})
+    }
 }
 
 const logIn = async(req,res) =>{
@@ -59,7 +63,7 @@ const signup = async (req, res) => {
 
     } catch (error) {
         console.log(error);
-        res.status(400).json('error2');
+        res.status(400).json({msg:error.message});
     }
 };
 
